@@ -377,7 +377,7 @@
 #define HEATER_1_PIN       9    // EXTRUDER 2 (FAN On Sprinter)
 #endif
 #define HEATER_2_PIN       -1   
-#define TEMP_0_PIN         13   // ANALOG NUMBERING
+#define TEMP_0_PIN         3   // ANALOG NUMBERING - Moved for AD595 on AUX1
 #define TEMP_1_PIN         15   // ANALOG NUMBERING
 #define TEMP_2_PIN         -1   // ANALOG NUMBERING
 #define HEATER_BED_PIN     8    // BED
