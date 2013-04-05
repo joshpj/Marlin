@@ -282,7 +282,7 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 // default settings 
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.376,80.376,6442.4.0,645}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.376,80.376,6442.4,645}
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 2, 45}    // (mm/sec)    
 // currently using pronterface feedrates: X/Y=2500, Z=60, E=100 mm/min
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
