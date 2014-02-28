@@ -24,7 +24,6 @@
 #define SERIAL_PORT 0
 
 // This determines the communication speed of the printer
-// This determines the communication speed of the printer
 //#define BAUDRATE 250000
 #define BAUDRATE 115200
 // This enables the serial port associated to the Bluetooth interface
@@ -276,9 +275,9 @@
 #endif
 
 // The pullups are needed if you directly connect a mechanical endswitch between the signal and ground pins.
-const bool X_ENDSTOPS_INVERTING = false; // set to true to invert the logic of the endstops. 
-const bool Y_ENDSTOPS_INVERTING = false; // set to true to invert the logic of the endstops. 
-const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of the endstops. 
+const bool X_MIN_ENDSTOP_INVERTING = false; // set to true to invert the logic of the endstops. 
+const bool Y_MIN_ENDSTOP_INVERTING = false; // set to true to invert the logic of the endstops. 
+const bool Z_MIN_ENDSTOP_INVERTING = false; // set to true to invert the logic of the endstops. 
 const bool X_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic of the endstop.
 const bool Y_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic of the endstop.
 const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic of the endstop.
